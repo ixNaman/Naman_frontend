@@ -1,0 +1,29 @@
+body{
+    background-color: cyan;
+    
+}
+
+.container{
+    border: 5px solid;
+    width: 300px;
+    padding: 50px;
+    margin: auto;
+    background-color: bisque;
+
+}
+.add-icon{
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+}
+.btn{
+    border-radius: 25%;
+    background-color: white;
+}
+.head{
+    margin: 0%;
+    text-align: center;
+}
+#fname {
+    height: 27px;
+}
