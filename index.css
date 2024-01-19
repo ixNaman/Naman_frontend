@@ -1,29 +1,46 @@
 body{
-    background-color: cyan;
+    background-image: url(todolist.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     
 }
 
 .container{
-    border: 5px solid;
+    border: 2px solid;
     width: 300px;
-    padding: 50px;
-    margin: auto;
+    padding: 50px;   
     background-color: bisque;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 .add-icon{
     width: 15px;
     height: 15px;
-    margin-top: 2px;
 }
 .btn{
-    border-radius: 25%;
-    background-color: white;
+    background-color: rgb(234, 84, 8);
+    height: 30px;
+    width: 30px;
+    border: 0px;
 }
+
 .head{
     margin: 0%;
     text-align: center;
 }
 #fname {
-    height: 27px;
+    height: 28px;
+    border: 0px;
+    width: 200px;
+}
+.search-box{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    width: 230px;
 }
