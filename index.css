@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+    opacity: 0.9;
 }
 
 .container{
@@ -16,6 +16,9 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: url('pencil-cursor.png') ,auto;
+
+
 
 }
 .add-icon{
@@ -30,8 +33,9 @@ body{
 }
 
 .head{
-    margin: 0%;
+    margin-top: 0%;
     text-align: center;
+    text-shadow: 5px 5px 0px burlywood
 }
 #fname {
     height: 28px;
@@ -41,6 +45,16 @@ body{
 .search-box{
     display: flex;
     flex-direction: row;
-    border: 1px solid;
-    width: 230px;
+    align-items: center;
+    width: 280px;
+}
+.box-title{
+    margin: 0px;
+    width: 80px;
+    font-size: 15px;
+    
+}
+.label{
+    border-bottom: 1px solid #000; 
+  
 }
