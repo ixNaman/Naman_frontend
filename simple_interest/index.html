@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="Simple.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js " defer> </script>
     <title>Document</title>
 </head>
+
 <body>
-    
-    
+    <div class="main">
+        <div class="container">
+            <h1>Simple Interest calculator</h1>
+            <form>
+
+                <div class="s1">
+                    <label>principal amount:</label>
+                    <input type="text" id="p"> 
+                    <label id="err-p" class="err"> enter numeric value </label>
+                    <label>rate of Interest:</label>
+                    <input type="text" id="r">
+                    <label id="err-r" class="err">enter numeric value </label>
+                    <label>Time:</label>
+                    <input type="text" id="t">
+                    <label id="err-t" class="err">enter numeric value </label>
+                    <!-- <input type="button" onclick="calculate()" id="cal-btn" value="calculate"> -->
+                    <p id="result"></p>
+
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+
 </body>
+
 </html>
