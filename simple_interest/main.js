@@ -1,8 +1,3 @@
-
-
-
-
-
 function calculate() {
     console.log("h")
     let p_value = document.getElementById("p").value
