@@ -1,0 +1,28 @@
+    #artist-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+       
+      }
+  
+      .artist-card {
+        width: 200px;
+        height: 500px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        text-align: center;
+        text-align: justify;
+        color:blanchedalmond;
+      }
+  
+      .artist-image {
+        max-width: 100%;
+        border-radius: 50%;
+      }
+
+      body{
+        background-image: url(dance.jpg);
+       
+      }
