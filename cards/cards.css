@@ -7,7 +7,7 @@
   
       .artist-card {
         width: 200px;
-        height: 500px;
+        /* height: 500px; */
         margin: 10px;
         padding: 10px;
         border: 1px solid #ccc;
@@ -15,13 +15,19 @@
         text-align: center;
         text-align: justify;
         color:blanchedalmond;
+ 
       }
   
-      .artist-image {
-        max-width: 100%;
-        border-radius: 50%;
+      #img {
+        height: 80px;
+        width: 80px;
+        opacity: 0.5;
       }
 
+      .search{
+        display: flex;
+        justify-content: center;
+      }
       body{
         background-image: url(dance.jpg);
        

@@ -1,3 +1,5 @@
+
+
 const artistsData = [
   {
     "name": "Dua Lipa",
@@ -60,36 +62,47 @@ function generateArtistCards(artists) {
     card.classList.add("artist-card");
 
 
+    const image = document.createElement("img");
+    image.src= 'singing.png';
+    image.id="img";
+    card.appendChild(image);
+    artistContainer.appendChild(card);
+
+
 
     const name = document.createElement("p");
-    name.textContent = artist.name;
+    name.textContent = `Artists : ${artist.name}`;
     card.appendChild(name);
     artistContainer.appendChild(card);
 
     const birthYear = document.createElement("p");
-    birthYear.textContent = artist.birthYear;
+    birthYear.textContent = `Birthyear:${artist.birthYear}`;
     card.appendChild(birthYear);
     artistContainer.appendChild(card);
 
     const country = document.createElement("p");
-    country.textContent = artist.country;
+    country.textContent = `Country :${artist.country}`;
     card.appendChild(country);
     artistContainer.appendChild(card);
 
     const genres = document.createElement("p");
-    genres.textContent = artist.genres;
+    genres.textContent = `Genres:${artist.genres}`;
     card.appendChild(genres);
     artistContainer.appendChild(card);
 
     const hitSongs = document.createElement("p");
-    hitSongs.textContent = artist.hitSongs;
+    hitSongs.textContent = `Hitsongs:${artist.hitSongs}`;
     card.appendChild(hitSongs);
     artistContainer.appendChild(card);
 
     const description = document.createElement("p");
-    description.textContent = artist.description;
+    description.textContent =`About:${ artist.description}`;
     card.appendChild(description);
     artistContainer.appendChild(card);
+
+    
+
+
   });
 }
 
@@ -99,6 +112,8 @@ function filterArtists(searchTerm) {
   );
   generateArtistCards(filteredArtists);
 }
+
+
 
 document.getElementById("searchInput").addEventListener("input", function (event) {
   filterArtists(event.target.value);
